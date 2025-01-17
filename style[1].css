@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    background: antiquewhite;
+    align-items: center;
+    justify-content: center;
+
+}
+
+hr {
+    width: 70px;
+    margin-left: -0px;
+    margin-top: -0px;
+    color: seagreen;
+    height: 1px;
+    border: 1px solid aqua;
+    background: rebeccapurple;
+    border-radius: 50%;
+    box-shadow: 0 0 12px;
+
+}
+
+hr:hover {
+    background: red;
+    color: aqua;
+}
+
+h2 {
+    margin-left: 0px;
+    background: transparent;
+    background-size: contain;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    box-shadow: 0 0 50px;
+    border: none;
+}
+
+h2:hover {
+    background: red;
+    color: aqua;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+    border: 2px solid aqua;
+    box-shadow: 0 0 12px;
+    margin-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input {
+    margin-bottom: 12px;
+    width: 425px;
+    height: 25px;
+    border: 2px solid blue;
+}
+
+textarea {
+    margin-bottom: 12px;
+    border-radius: 5px;
+    resize: none;
+    width: 100%;
+    height: 70px;
+}
+
+button {
+    margin-bottom: 22px;
+    height: 25px;
+    width: 125px;
+    border-radius: 50%;
+    background: transparent;
+    transition: transform 2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(63, 11, 131);
+    color: red;
+}
+
+i {
+    margin-left: 10px;
+    width: 21px;
+
+}
